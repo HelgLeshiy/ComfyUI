@@ -1362,7 +1362,7 @@ def unpin_memory(tensor):
     return False
 
 def sage_attention_enabled():
-    return args.use_sage_attention
+    return True
 
 def flash_attention_enabled():
     return args.use_flash_attention
